@@ -1,0 +1,28 @@
+# Getting Started
+
+#Links
+https://www.barentswatch.no/minside/ - API \
+tetojiv972@nefacility.com / polibuda????
+
+https://leafletjs.com/ - free map \
+https://www.jsonschema2pojo.org/ - json to POJO
+
+API:
+POST https://id.barentswatch.no/connect/token
+in Body > x-www-forum-urlencoded add:
+client_id tetojiv972@nefacility.com:klaudiusz
+client_secret polibuda????
+grant_type client_credentials
+scope api
+
+and you will get:
+{
+"access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjBCM0I1NEUyRkQ5OUZCQkY5NzVERDMxNDBDREQ4OEI1QzA5RkFDRjMiLCJ0eXAiOiJhdCtqd3QiLCJ4NXQiOiJDenRVNHYyWi03LVhYZE1VRE4ySXRjQ2ZyUE0ifQ.eyJuYmYiOjE2Mzc5NDAyMTEsImV4cCI6MTYzNzk0MzgxMSwiaXNzIjoiaHR0cHM6Ly9pZC5iYXJlbnRzd2F0Y2gubm8iLCJhdWQiOiJhcGkiLCJjbGllbnRfaWQiOiJ0ZXRvaml2OTcyQG5lZmFjaWxpdHkuY29tOmtsYXVkaXVzeiIsInNjb3BlIjpbImFwaSJdfQ.Mi2rACjd2eo1vfiMCfeaQOLl1fTcYUFUgVoqvHIAQrql31yuk8OqJJc-4VYPfXRb460uYBAfpAbOqMhuFy9QUKgc8tWQFGqskhsO8KAi5MM1KuqS_fPmbIqPVLJDxLWHNREQJDsWj00S6d1T2lsWroXPVoDAni7ilvePnHAE1bNkVCqGS2fjWjtq0JAYqipw158mQsDSLMWacgm11mqXlnQrV7p-XetqAhV2M2HrF8GE7EGI_fkb-TZ0t5RynEg_d8DPbPguvR7w2QvH4pej6Sj-3PZdpHbBWBNLzjz1s3YyxpcTz58I5v-BuLx65GjLjdi7JDn0XyZSE7O40hnCtYMIIS1pAzMYb04vDVrCgHeuMi1BYFVU37yOQTx5WHxjuRWrUxwm6rbtO5mz1HMHdoSX8Lsaq8BmPn3Nxhl9Tc7b2le6eS6e31i_LMw-K8GJQ3CDVJ-kzp6v7Zd74mVENVX1Yn8F1w61Tqf5oofmFmJqeY-JD4q9k1muwelkhcG3uVGsr_4WNgaJxwDJPcz1_hq7Q01PQWB6SDdr2QmA3abYQA6_0Td2A_AbVHlPmS0YPRnMntVXnGV-5h49b2MAzYTBhwu2L62OTL7IYwDtwoRjaMxYI9yW3hO3HEJuH1TjbFxJaAlS_RQ69__-RVoErgNbotawb_RpKhXQRJbwwL8",
+"expires_in": 3600,
+"token_type": "Bearer",
+"scope": "api"
+}
+
+
+To read:
+Ctrl + Alt + V
