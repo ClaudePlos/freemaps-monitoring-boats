@@ -25,4 +25,4 @@ and you will get:
 
 
 To read:
-Ctrl + Alt + V
+Ctrl + Alt + V https://www.jetbrains.com/help/rider/Refactorings__Introduce_Variable.html
